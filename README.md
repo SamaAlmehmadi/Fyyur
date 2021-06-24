@@ -201,7 +201,7 @@ edite "lazy" in artist and venue class to :
 
 - add more requirement  in **requirement.txt**:
     
-
+```
     alembic==1.6.5
     appdirs==1.4.4
     Babel==2.9.0
@@ -230,7 +230,7 @@ edite "lazy" in artist and venue class to :
     virtualenv==20.4.7
     Werkzeug==2.0.1
     WTForms==2.3.3
-    
+  ```
 
 - update in **app.py** 
      upcoming and past show now work 
