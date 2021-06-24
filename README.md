@@ -189,8 +189,8 @@ Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or
 - add models.py   
    update genres:
    ```python
-genres = db.Column(db.ARRAY(db.String), nullable=False)
-```
+     genres = db.Column(db.ARRAY(db.String), nullable=False)
+   ```
 edite "lazy" in artist and venue class to :
   ```python
      lazy="joined"
