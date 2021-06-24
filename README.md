@@ -70,6 +70,7 @@ npm install bootstrap@3
       ├── forms
       ├── layouts
       └── pages
+      
   ```
 
 Overall:
@@ -179,4 +180,60 @@ python3 app.py
 
 6. **Verify on the Browser**<br>
 Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or [http://localhost:5000](http://localhost:5000) 
+
+
+------------
+
+
+### Updates 
+- add models.py   
+   update genres:
+   ```python
+genres = db.Column(db.ARRAY(db.String), nullable=False)
+```
+edite "lazy" in artist and venue class to :
+  ```python
+     lazy="joined"
+  ```
+
+- update  **forms.py **
+
+
+- add more requirement  in **requirement.txt**:
+    
+
+    alembic==1.6.5
+    appdirs==1.4.4
+    Babel==2.9.0
+    click==8.0.1
+    colorama==0.4.4
+    distlib==0.3.2
+    filelock==3.0.12
+    Flask==2.0.1
+    Flask-Migrate==3.0.1
+    Flask-Moment==0.11.0
+    Flask-SQLAlchemy==2.4.4
+    Flask-WTF==0.15.1
+    greenlet==1.1.0
+    itsdangerous==2.0.1
+    Jinja2==3.0.1
+    Mako==1.1.4
+    MarkupSafe==2.0.1
+    postgres==3.0.0
+    psycopg2-binary==2.9.1
+    psycopg2-pool==1.1
+    python-dateutil==2.6.0
+    python-editor==1.0.4
+    pytz==2021.1
+    six==1.16.0
+    SQLAlchemy==1.4.18
+    virtualenv==20.4.7
+    Werkzeug==2.0.1
+    WTForms==2.3.3
+    
+
+- update in **app.py** 
+     upcoming and past show now work 
+
+
 
