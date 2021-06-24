@@ -187,6 +187,15 @@ Navigate to project homepage [http://127.0.0.1:5000/](http://127.0.0.1:5000/) or
 
 ### Updates 
 - add models.py   
+   now temlates
+```
+└── templates
+    ├── errors
+    ├── forms
+    ├── layouts
+    └── pages
+	└── models
+  ```
    update genres:
    ```python
      genres = db.Column(db.ARRAY(db.String), nullable=False)
@@ -234,6 +243,9 @@ edite "lazy" in artist and venue class to :
 
 - update in **app.py** 
      upcoming and past show now work 
+
+
+
 
 
 
