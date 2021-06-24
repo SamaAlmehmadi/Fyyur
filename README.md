@@ -1,7 +1,13 @@
 
 ### Updates 
+- upgrade **mirgane**  
+  ```
+    ce5d6a9f37e9_change_genres_to_arry_and_lazy_true_to_.py 
+  ```
+
+
 - add models.py   
-   now temlates
+   now templates :
 ```
 └── templates
     ├── errors
