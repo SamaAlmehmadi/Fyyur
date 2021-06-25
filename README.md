@@ -7,9 +7,9 @@
 
 
 - add models.py   
-   now templates :
+  
 
-```sh
+```
   ├── README.md
   ├── app.py the main driver of the app.
   └──  ***models.py***   SQLAlchemy models.
