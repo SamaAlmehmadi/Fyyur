@@ -9,12 +9,11 @@
 - add models.py   
    now templates :
 ```
-└── templates
-    ├── errors
-    ├── forms
-    ├── layouts
-    └── pages
-    └── models
+```sh
+  ├── README.md
+  ├── app.py the main driver of the app.
+  └──  **models.py**   SQLAlchemy models.
+                   
   ```
    update genres:
    ```python
